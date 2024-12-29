@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdysseyEventPlanner", "OdysseyEventPlanner.csproj", "{F973A5ED-0134-46DF-B640-C910B272F9B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{BFC40FF8-2AFB-4655-87C5-C26071123285}"
+	ProjectSection(SolutionItems) = preProject
+		User.cs = User.cs
+		Event.cs = Event.cs
+		Registration.cs = Registration.cs
+		ContactFormSubmission.cs = ContactFormSubmission.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{12FC91A5-0A72-42DB-8557-F8629A56C21F}"
+	ProjectSection(SolutionItems) = preProject
+		odysseycontext.cs = odysseycontext.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{42ED053F-FE93-4B49-9A02-856BE89BD358}"
+	ProjectSection(SolutionItems) = preProject
+		UsersController.cs = UsersController.cs
+		RegistrationsController.cs = RegistrationsController.cs
+		ContactFormSubmissionsController.cs = ContactFormSubmissionsController.cs
+		EventsController.cs = EventsController.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F973A5ED-0134-46DF-B640-C910B272F9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F973A5ED-0134-46DF-B640-C910B272F9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F973A5ED-0134-46DF-B640-C910B272F9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F973A5ED-0134-46DF-B640-C910B272F9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C026153-9625-4ED9-8D2C-5708AA4B8F77}
+	EndGlobalSection
+EndGlobal
